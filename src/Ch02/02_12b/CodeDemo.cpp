@@ -6,13 +6,13 @@
 #include <typeinfo>
 
 int main(){
-    auto score;
-    auto points;
-    auto height;
-    auto duration;
-    auto is_active;
-    auto initial;
-    auto title;
+    auto score = 8;
+    auto points = 12345678901;
+    auto height = 6.2f; //using the trailing f represents a float. Decimals are floats
+    auto duration = 90.0;
+    auto is_active = true;
+    auto initial = 'P'; //single characters get single quotes ' 
+    auto title = "Soccer champions."; //largert strings get double quotes "
 
     std::cout << "The type of score is " << typeid(score).name() << std::endl;
     std::cout << "The type of points is " << typeid(points).name() << std::endl;
